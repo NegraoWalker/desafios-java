@@ -37,10 +37,33 @@ public class LargestDivisibleSubset {
        resposta[j] % resposta[i] == 0
     Se houver várias soluções, retorne qualquer uma delas.
 
+    Exemplos:
+    [1,2,3] => [1,2] ou [1,3]
+    [1,2,4,8] => [1,2,4,8]
+
+    1 % 2 == 0 => no
+    1 % 3 == 0 => no
+    2 % 1 == 0 => yes
+    2 % 3 == 0 => no
+    3 % 1 == 0 => yes
+    3 % 2 == 0 => no
+
+    1 % 2 == 0 => no
+    1 % 4 == 0 => no
+    1 % 8 == 0 => no
+    2 % 1 == 0 => yes
+    2 % 4 == 0 => yes
+    2 % 8 == 0 => yes
+    4 % 1 == 0 => yes
+    4 % 2 == 0 => yes
+    4 % 8 == 0 => yes
+    8 % 1 == 0 => yes
+    8 % 2 == 0 => yes
+    8 % 4 == 0 => yes
  */
 
 /*
-    Tenho que receber uma coleção de inteiros distintos;
-    Tenho que dividir cada número inteiro armazenado pelos demais sendo do inicio para o final ou do final para o inicio
-    retornar os numeros que são divisiveis
+    ALGORITMO:
+    1. RECEBER UMA COLEÇÃO DE NÚMEROS INTEIROS DISTINTOS;
+    2.
  */
